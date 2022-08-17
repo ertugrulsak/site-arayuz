@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(/img/pexels-pixabay-531321.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    max-width: 1535px;
+    width: 100%;
+    min-height: 720px;
+  /*  background-color: black;*/
+}
+
+.leftbar{
+    display: flex;
+    max-width: 200px;
+    width:100%;
+    min-height: 720px;
+  /*  background-color: yellow;*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.solbaslik{
+    display: flex;
+    max-width: 180px;
+    width: 100%;
+    min-height: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+}
+.bilgi{
+    display: flex;
+    max-width: 180px;
+    width: 100%;
+    min-height: 300px;
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+}
+
+.rightbar{
+    display: flex;
+    max-width: 200px;
+    width:100%;
+    min-height: 720px;
+  /*  background-color: yellow;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cvdil{
+    display: flex;
+    max-width: 180px;
+    width: 100%;
+    min-height: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.bildiklerim{
+    display: flex;
+    max-width: 180px;
+    width: 100%;
+    min-height: 300px;
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    max-width: 1135px;
+    width: 100%;
+    min-height: 720px;
+ /*  background-color: blue;*/
+}
+
+.navbar{
+    display: flex;
+    max-width: 1135px;
+    width: 100%;
+    min-height: 100px;
+  /*  background-color: black;*/
+}
+
+.left{
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+   justify-content: center;
+}
+
+.ertu{
+    display: flex;
+    max-width: 250px;
+    width: 33%;
+    min-height: 20px;
+    height: 80px;
+    border-radius: 50%;
+   
+}
+
+.mid{
+    display: flex;
+    max-width: 635px;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.fa-solid {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hakkinda{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4%;
+    color: white;
+}
+
+.hakkinda:hover{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4%;
+}
+
+
+
+.cv{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    margin-left: 50px;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4%;
+    color: red;
+}
+
+.cv:hover{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    margin-left: 50px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4%;
+    color: white;
+}
+
+.iletisim{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    margin-left: 50px;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius:4%;
+    color: white;
+
+}
+
+.iletisim:hover{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    margin-left: 50px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius:4%;
+    color: white;
+}
+
+.right{
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.giris{
+    max-width: 100px;
+    width: 100%;
+    min-height: 20px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    color:white ;
+    
+}
+
+.giris:hover{
+    max-width: 100px;
+     width: 100%;
+    min-height: 20px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    color:white ;
+}
+
+.kayit{
+    max-width: 100px;
+    width: 100%;
+    min-height: 20px;
+    height: 40px;
+    background-color: orange;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    color: white;
+}
+
+.kayit:hover{
+    max-width: 100px;
+    width: 100%;
+    min-height: 20px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    color:white ;
+}
+
+
+.paragraf{
+    display: flex;
+    max-width: 1135px;
+    width: 100%;
+    min-height: 520px;
+  /*  background-color: orange;*/
+
+}
+
+.footer{
+    display: flex;
+    max-width: 1135px;
+    width: 100%;
+    min-height: 100px;
+ /*   background-color: lightblue;*/
+    align-items: center;
+    justify-content: center;
+   /* background-color: navy;*/
+}
+
+.twitter{
+   display: flex;
+   max-width: 150px;
+   width: 100%;
+   min-height: 50px;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.8em;
+   border: none;
+   border-radius: 5%;
+   background-color: orange;
+     
+}
+
+.twitter:hover{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    border: none;
+    border-radius: 5%;
+    background-color: green;
+}
+
+.fa-brands{
+    margin-right: 10px;
+    color: white;
+}
+
+
+.youtube{
+    display: flex;
+   max-width: 150px;
+   width: 100%;
+   min-height: 50px;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.8em;
+   border: none;
+   border-radius: 5%;
+   margin-left: 20px;
+   background-color: orange;
+}
+
+.youtube:hover{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    border: none;
+    border-radius: 5%;
+    margin-left: 20px;
+    background-color: green;
+}
+
+.facebook{
+    display: flex;
+   max-width: 150px;
+   width: 100%;
+   min-height: 50px;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.8em;
+   border: none;
+   border-radius: 5%;
+   margin-left: 20px;
+   background-color: orange;
+}
+
+.facebook:hover{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    border: none;
+    border-radius: 5%;
+    margin-left: 20px;
+    background-color: green;
+}
+
+.instagram{
+    display: flex;
+   max-width: 150px;
+   width: 100%;
+   min-height: 50px;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.8em;
+   border: none;
+   border-radius: 5%;
+   margin-left: 20px;
+   background-color: orange;
+}
+
+.instagram:hover{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    border: none;
+    border-radius: 5%;
+    margin-left: 20px;
+    background-color: green;
+}
